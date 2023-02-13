@@ -19,10 +19,10 @@ Le but étant à terme de pouvoir sensibiliser et/ou prévenir des internautes s
 
 ## Tech Used
 
-[jupyter notebook](https://jupyter.org/)
-[tensorflow](https://www.tensorflow.org/)
-[sklearn](https://scikit-learn.org/stable/)
+- [jupyter notebook](https://jupyter.org/)
+- [tensorflow](https://www.tensorflow.org/)
+- [sklearn](https://scikit-learn.org/stable/)
 
 ## Dataset
 
-[Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data#)
+- [Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data#)
