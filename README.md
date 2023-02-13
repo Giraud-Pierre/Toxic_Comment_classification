@@ -1,12 +1,13 @@
 # Toxic_Comment_classification
 
 Projet dans le cadre du cours de NLP (M1 ISEN), Toxic_Comment_classification a pour but de créer un model capable de classifier des commentaires au travers de tags comme :
--toxic
--severe_toxic
--obscene
--threat
--insult
--identity_hate
+
+- toxic
+- severe_toxic
+- obscene
+- threat
+- insult
+- identity_hate
 
 Le but étant à terme de pouvoir sensibiliser et/ou prévenir des internautes sur les propriétés néfastes de certains commentaires.
 
