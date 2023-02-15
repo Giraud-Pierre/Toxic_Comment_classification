@@ -43,3 +43,9 @@ Le but étant à terme de pouvoir sensibiliser et/ou prévenir des internautes s
 - Dans la partie ‘étude de différents modèles’, chaque modèle est exécutable indépendamment si vous souhaitez voir comment il fonctionne. Lors du lancement, le programme sauvegarde le meilleur modèle pour chaque type de modèle dans un dossier ‘Model’ sur votre drive.
     * Note 1: Certains modèles prenant un certain temps à s'entraîner, des modèles préalablement entraînés sont fournis dans le dossier ’Model’ du dossier ’Projet’ fourni précédemment. Si vous souhaitez réutiliser un ou plusieurs de ces modèles, copiez le/les fichier(s) correspondant(s) dans un dossier ‘Model’ sur votre drive.
     * Note 2: Les sauvegardes de modèle pèsent relativement lourd (plusieurs centaines de MO) et peuvent prendre une place conséquente sur votre google drive. Pensez à les supprimer quand vous avez fini d’utiliser le projet.
+- La partie ‘pipeline’ sert à utiliser les modèles entraînés ci-dessus.
+   * Il faut choisir le modèle que vous souhaitez utiliser
+   * copier coller le contenu de la cellule ‘création du modèle’ du modèle approprié dans la case prévue à cet effet au début de la partie pipeline
+   * Indiquez le chemin sur votre drive contenant la sauvegarde du modèle correspondant (typiquement soit dans ‘/content/drive/MyDrive/Model/{nom du fichier}’ soit dans ‘/content/drive/MyDrive/NLP_4A/Projet/Model/{nom du fichier}’ si vous avez suivi les étapes correctement jusqu’ici)
+   * Utiliser la fonction ‘Predict’ pour prédire l’appartenance aux classes d’un array ou d’une liste de commentaires.
+   * Utiliser la fonction ‘Predict_F1score’  si vous avez déjà labellisé vos commentaires pour calculer le F1_score de la prédiction faite par le modèle. 
